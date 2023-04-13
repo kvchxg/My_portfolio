@@ -1,0 +1,81 @@
+.heropage{
+    height: 100vh;
+    max-height: 1020px ;
+    font-family: 'Raleway';
+    display: flex;
+    background-color: $main-grey-bg;
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+  
+
+
+
+    &__text-block{
+        display: flex;
+       padding: 10%;
+        flex-direction: column;
+        justify-content: center;
+        font-family: 'Raleway';
+        font-weight: 700;
+
+        &--grey{
+            font-weight: 800;
+            color: $text-grey;
+            font-size: 25px;
+        }
+
+        span{
+            font-size: 40px;
+            margin-bottom: 15%;
+        }
+    }
+
+    &__links-block{
+        display: flex;
+        gap:30px;
+        
+    }
+
+    &__black-box{
+        background-color: $header-black ;
+        width: 55%;
+        height: 120%;
+        transform: rotate(9.67deg);
+        position: absolute;
+        right: -80px;
+        top: -80px;
+        z-index: 0;
+      
+    }
+
+    img{
+        position: absolute;
+        z-index: 0;
+        right: 12%;
+        height:92%;
+        bottom: 0;
+    }
+
+
+    h1{
+       font-size: 80px;
+    }
+
+    a{
+        width: 60px;
+        height: 60px;
+        background: #C4C4C4;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+    }
+
+    svg{
+        margin: auto;
+    }
+}
+
