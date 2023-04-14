@@ -1,0 +1,28 @@
+{
+  "name": "my_portfolio",
+  "version": "1.0.0",
+  "description": "My_portfolio",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvchxg/My_portfolio.git"
+  },
+  "author": "Mihail Kucher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kvchxg/My_portfolio/issues"
+  },
+  "homepage": "https://github.com/kvchxg/My_portfolio#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.79.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "browserslist": "^4.21.5"
+  }
+}
