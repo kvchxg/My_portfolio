@@ -1,3 +1,4 @@
+
 const contactBtn = document.querySelector('.contactBtn')
 const startTime = new Date().getTime();
 
@@ -39,6 +40,11 @@ window.addEventListener('beforeunload',function(){
 
 showVisitsNumber();
 showAvgTimeOnPage();
+
+
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => navigator.serviceWorker.register("/serviceWorker.js"));
+  }
 
 
 
